@@ -20,8 +20,8 @@ namespace LaboratorioRepaso
         }
         private void Mostrar()
         {
-            AsistenciaArchivo empleadoArchivo = new AsistenciaArchivo();
-            asistencias = empleadoArchivo.Leer("../../Asistencias.json");
+            AsistenciaArchivo asistenciaArchivo = new AsistenciaArchivo();
+            asistencias = asistenciaArchivo.Leer("../../Asistencias.json");
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = asistencias;
             dataGridView1.Refresh();
@@ -36,8 +36,8 @@ namespace LaboratorioRepaso
             comboBox1.DisplayMember = "Nombre" ;
             comboBox1.ValueMember = "NoEmpleado";
             comboBox1.DataSource = empleados;
-            AsistenciaArchivo asistencia = new AsistenciaArchivo();
-            asistencias = asistencia.Leer("../../Empleados.json");
+            //AsistenciaArchivo asistencia = new AsistenciaArchivo();
+            //asistencias = asistencia.Leer("../../Empleados.json");
 
         }
 
@@ -58,9 +58,5 @@ namespace LaboratorioRepaso
             Mostrar();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-           // Mostrar();
-        }
     }
 }

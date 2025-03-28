@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonGuardar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.buttonMostrar = new System.Windows.Forms.Button();
             this.numericUpDownHoras = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -99,16 +98,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(386, 300);
             this.dataGridView1.TabIndex = 12;
             // 
-            // buttonMostrar
-            // 
-            this.buttonMostrar.Location = new System.Drawing.Point(41, 236);
-            this.buttonMostrar.Name = "buttonMostrar";
-            this.buttonMostrar.Size = new System.Drawing.Size(107, 52);
-            this.buttonMostrar.TabIndex = 13;
-            this.buttonMostrar.Text = "Mostrar";
-            this.buttonMostrar.UseVisualStyleBackColor = true;
-            this.buttonMostrar.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // numericUpDownHoras
             // 
             this.numericUpDownHoras.Location = new System.Drawing.Point(220, 86);
@@ -164,7 +153,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.numericUpDownHoras);
-            this.Controls.Add(this.buttonMostrar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.label3);
@@ -190,7 +178,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonGuardar;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button buttonMostrar;
         private System.Windows.Forms.NumericUpDown numericUpDownHoras;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.ComboBox comboBox1;
